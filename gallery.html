@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Pathshala School of Education</title>
+  <meta name="description" content="Photo gallery of school life at Pathshala School of Education, Patna.">
+  <link rel="icon" href="images/logo.jpeg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand">
+        <img src="images/logo.jpeg" alt="Pathshala School of Education seal logo">
+        <span class="brand-text">
+          <span class="name">Pathshala School of Education</span>
+          <span class="loc">Kadamkuan, Patna</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false">Menu</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb">Home / Gallery</p>
+        <h1>Gallery</h1>
+        <p>Moments from school life — classroom activities, events and campus life through the year.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+
+        <div class="gallery-tabs">
+          <button class="active" data-category="all">All</button>
+          <button data-category="annual-day">Annual Day</button>
+          <button data-category="sports-day">Sports Day</button>
+          <button data-category="classroom">Classroom Activities</button>
+          <button data-category="campus">Campus</button>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-tile" data-category="annual-day"
+            style="background: linear-gradient(135deg,#7A1B2B,#C9972E);"><span>Annual Day performance</span></div>
+          <div class="gallery-tile" data-category="annual-day"
+            style="background: linear-gradient(135deg,#5B0F1D,#A93248);"><span>Annual Day prize distribution</span>
+          </div>
+          <div class="gallery-tile" data-category="sports-day"
+            style="background: linear-gradient(135deg,#8F2338,#DDB456);"><span>Sports Day races</span></div>
+          <div class="gallery-tile" data-category="sports-day"
+            style="background: linear-gradient(135deg,#7A1B2B,#5B0F1D);"><span>Sports Day, prize ceremony</span></div>
+          <div class="gallery-tile" data-category="classroom"
+            style="background: linear-gradient(135deg,#C9972E,#8F2338);"><span>Art and craft class</span></div>
+          <div class="gallery-tile" data-category="classroom"
+            style="background: linear-gradient(135deg,#A93248,#DDB456);"><span>Primary classroom activity</span></div>
+          <div class="gallery-tile" data-category="campus" style="background: linear-gradient(135deg,#5B0F1D,#C9972E);">
+            <span>School entrance</span>
+          </div>
+          <div class="gallery-tile" data-category="campus" style="background: linear-gradient(135deg,#8F2338,#7A1B2B);">
+            <span>Play and activity area</span>
+          </div>
+        </div>
+
+        <p class="form-note" style="margin-top:26px;">These tiles are placeholders — swap in real photographs from
+          school events and campus life whenever they're ready.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="images/logo.jpeg" alt="Pathshala School of Education seal logo">
+            <span>Pathshala School of Education</span>
+          </div>
+          <p>An English-medium, CBSE-Based Curriculum school in Kadamkuan, Patna, educating students from Play Group to
+            Class 8 since 2021.</p>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Reach us</h4>
+          <p>H.O. — Sudha Sadan, Jagat Narayan Road, Kadamkuan, Patna – 800003</p>
+          <p>B.O. — H/o Madhuban, Near Pallavi Apartment, Nala Road, Kadamkuan, Patna – 800003</p>
+          <p>Phone: +91 9304092858</p>
+          <p>Email: pathshala.edu@gmail.com</p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Pathshala School of Education. All rights reserved.</span>
+        <span>Established 2021, CBSE Based Curriculum</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+  <!--chatBot-->
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  <script type="module">
+    import {createChat} from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+    createChat({
+      webhookUrl: "https://rajiv.app.n8n.cloud/webhook/9d95d391-c62a-411f-af88-59262f74581b/chat"
+    });
+  </script>
+</body>
+
+</html>
